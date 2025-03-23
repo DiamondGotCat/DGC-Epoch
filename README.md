@@ -1,3 +1,5 @@
+![Logo](./assets/MicroTime.svg)
+
 # MicroTime
 
 ## How
