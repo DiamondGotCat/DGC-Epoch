@@ -1,6 +1,6 @@
 ![Logo](./assets/MicroTime-Wallpaper.svg)
 
-# MicroTime - [Converter](https://kamu.jp/microtime/)
+# MicroTime - [Demo](https://kamu.jp/microtime/)
 
 ## How
 This is a new way of expressing time that can represent very long periods of time.
