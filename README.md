@@ -17,4 +17,4 @@ It's very simple:
 ### MicroTime 64 - ...
 - MicroTime 64 is the second MicroTime notation.
 - It represents MicroTime with 64 digits.
-- It can be used up to about the year 584.5 billion.
+- It can be used up to about the year 584.5 Billion.
