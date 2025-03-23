@@ -19,7 +19,7 @@ It's very simple:
 - It represents MicroTime with 64 digits.
 - It can be used up to about the year 584.5 Billion.
 
-### MicroTime XX - ...
+### MicroTime XXX - ...
 At the time of creating MicroTime, 48 bits was more than enough, and we believe that 64 bits is very reliable.
 
 However, the "UNIX epoch", which was the standard at the time, was originally 32 bits, and was a notation method that would soon run out of space.
