@@ -12,6 +12,13 @@ It's very simple:
 ## About LICENSE
 MicroTime is licensed under the MIT License, but no copyright notice is required if you are only using MicroTime to display time.
 
+## Logo
+Anyone can use the MicroTime Logo for free.
+
+You may use the image data in `./assets/` directory without attribution, as long as you follow these guidelines:
+- Do not change the colors or make any modifications that significantly reduce visibility.
+- Do not change the text in the MicroTime logo to a different font or characters.
+
 ## Versions
 
 ### MicroTime 48 - [Demo](https://kamu.jp/microtime/48/)
