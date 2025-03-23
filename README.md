@@ -1,4 +1,4 @@
-![Logo](./assets/MicroTime.svg)
+![Logo](./assets/MicroTime-Wallpaper.svg)
 
 # MicroTime
 
