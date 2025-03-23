@@ -10,6 +10,11 @@ It's very simple:
 ## Versions
 
 ### MicroTime 48 - [Demo](https://kamu.jp/microtime/48/)
-MicroTime 48 is the first MicroTime notation.
-It represents MicroTime with 48 digits.
-It can be used up to about the year 8904080.
+- MicroTime 48 is the first MicroTime notation.
+- It represents MicroTime with 48 digits.
+- It can be used up to about the year 8904080.
+
+### MicroTime 64 - ...
+- MicroTime 64 is the second MicroTime notation.
+- It represents MicroTime with 64 digits.
+- It can be used up to about the year 584.5 billion.
