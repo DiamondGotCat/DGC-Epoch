@@ -1,6 +1,6 @@
 ![Logo](./assets/MicroTime-Wallpaper.svg)
 
-# MicroTime
+# MicroTime - [Converter](https://kamu.jp/microtime/)
 
 ## How
 This is a new way of expressing time that can represent very long periods of time.
@@ -21,17 +21,17 @@ You may use the image data in `./assets/` directory without attribution, as long
 
 ## Versions
 
-### MicroTime 48 - [Demo](https://kamu.jp/microtime/48/)
+### MicroTime 48
 - MicroTime 48 is the first MicroTime notation.
 - It represents MicroTime with 48 digits.
 - It can be used up to about the year 8.9 Million.
 
-### MicroTime 64 - ...
+### MicroTime 64
 - MicroTime 64 is the second MicroTime notation.
 - It represents MicroTime with 64 digits.
 - It can be used up to about the year 584.5 Billion.
 
-### MicroTime XXX - ...
+### MicroTime XXX
 At the time of creating MicroTime, 48 bits was more than enough, and we believe that 64 bits is very reliable.
 
 However, the "UNIX epoch", which was the standard at the time, was originally 32 bits, and was a notation method that would soon run out of space.
