@@ -7,6 +7,9 @@ It's very simple:
 1. Measure the number of milliseconds since January 1, 2000 (UTC)
 2. Convert to binary
 
+## About LICENSE
+MicroTime is licensed under the MIT License, but no copyright notice is required if you are only using MicroTime to display time.
+
 ## Versions
 
 ### MicroTime 48 - [Demo](https://kamu.jp/microtime/48/)
