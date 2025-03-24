@@ -24,12 +24,12 @@ You may use the image data in `./assets/` directory without attribution, as long
 ### MicroTime 48
 - MicroTime 48 is the first MicroTime notation.
 - It represents MicroTime with 48 digits.
-- It can be used up to about the year 10922.
+- It can be used up to about the year 10925.
 
 ### MicroTime 64
 - MicroTime 64 is the second MicroTime notation.
 - It represents MicroTime with 64 digits.
-- It can be used up to about the year 585 million.
+- It can be used up to about the year 584944417.
 
 ### MicroTime XXX
 At the time of creating MicroTime, 48 bits was more than enough, and we believe that 64 bits is very reliable.
