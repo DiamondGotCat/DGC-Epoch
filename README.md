@@ -5,7 +5,7 @@ This is a new way of expressing time that can represent very long periods of tim
 
 It's very simple:
 1. Measure the number of milliseconds since January 1, 2000 (UTC)
-2. Convert to binary
+2. Convert to binary (Unsigned Integer)
 
 ## About LICENSE
 DGC Epoch is licensed under the MIT License, but no copyright notice is required if you are only using DGC Epoch to display time.
