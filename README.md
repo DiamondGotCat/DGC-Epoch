@@ -20,16 +20,20 @@ You may use the image data in `./assets/` directory without attribution, as long
 - Do not change the text in the MicroTime logo to a different font or characters.
 
 ## Versions
+- 48: Up to about 2925 years
+- 64: Up to about 586554 years
+- 96: Up to about 2.5 sextillion years
+- 128: Up to about 10 nonillion years
 
 ### MicroTime 48
 - MicroTime 48 is the first MicroTime notation.
 - It represents MicroTime with 48 digits.
-- It can be used up to about the year 8.9 Million.
+- It can be used up to about the year 2925.
 
 ### MicroTime 64
 - MicroTime 64 is the second MicroTime notation.
 - It represents MicroTime with 64 digits.
-- It can be used up to about the year 584.5 Billion.
+- It can be used up to about the year 586554.
 
 ### MicroTime XXX
 At the time of creating MicroTime, 48 bits was more than enough, and we believe that 64 bits is very reliable.
