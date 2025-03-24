@@ -1,6 +1,6 @@
 ![Logo](./assets/DGC-Epoch-Wallpaper.svg)
 
-# DGC Epoch - [Demo](https://kamu.jp/DGC Epoch/)
+# DGC Epoch (Previous name: MicroTime) - [Demo](https://kamu.jp/dgc-epoch/)
 
 ## How
 This is a new way of expressing time that can represent very long periods of time.
