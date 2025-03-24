@@ -1,5 +1,3 @@
-![Logo](./assets/DGC-Epoch-Wallpaper.svg)
-
 # DGC Epoch (Previous name: MicroTime) - [Demo](https://kamu.jp/dgc-epoch/)
 
 ## How
