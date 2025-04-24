@@ -19,12 +19,12 @@ You may use the image data in `./assets/` directory without attribution, as long
 
 ## Versions
 
-### DGC Epoch 48
+### DGC Epoch 48 (dgce48)
 - DGC Epoch 48 is the first DGC Epoch notation.
 - It represents DGC Epoch with 48 digits.
 - It can be used up to about the year 10925.
 
-### DGC Epoch 64
+### DGC Epoch 64 (dgce64)
 - DGC Epoch 64 is the second DGC Epoch notation.
 - It represents DGC Epoch with 64 digits.
 - It can be used up to about the year 584944417.
