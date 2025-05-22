@@ -21,7 +21,7 @@ You may use the image data in `./assets/` directory without attribution, as long
 
 ### DGC Epoch 48 (dgce48)
 - DGC Epoch 48 is the first DGC Epoch notation.
-- It represents DGC Epoch with 48 digits.
+- It represents DGC Epoch with 48 digits binary.
 - It can be used up to about the year 10925.
 
 ### DGC Epoch 48 Extended (dgce48ext)
@@ -31,7 +31,7 @@ However, this would make the same mistake as the UNIX epoch, so we'll increment 
 
 ### DGC Epoch 64 (dgce64)
 - DGC Epoch 64 is the second DGC Epoch notation.
-- It represents DGC Epoch with 64 digits.
+- It represents DGC Epoch with 64 digits binary.
 - It can be used up to about the year 584944417.
 
 ### DGC Epoch 64 Extended (dgce64ext)
