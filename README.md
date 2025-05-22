@@ -24,10 +24,20 @@ You may use the image data in `./assets/` directory without attribution, as long
 - It represents DGC Epoch with 48 digits.
 - It can be used up to about the year 10925.
 
+### DGC Epoch 48 Extended (dgce48ext)
+(Changes from DGC Epoch 48)
+To accommodate negative numbers, we'll make the first digit a parameter representing a negative number.
+However, this would make the same mistake as the UNIX epoch, so we'll increment it by one digit instead.
+
 ### DGC Epoch 64 (dgce64)
 - DGC Epoch 64 is the second DGC Epoch notation.
 - It represents DGC Epoch with 64 digits.
 - It can be used up to about the year 584944417.
+
+### DGC Epoch 64 Extended (dgce64ext)
+(Changes from DGC Epoch 64)
+To accommodate negative numbers, we'll make the first digit a parameter representing a negative number.
+However, this would make the same mistake as the UNIX epoch, so we'll increment it by one digit instead.
 
 ### DGC Epoch XXX
 At the time of creating DGC Epoch, 48 bits was more than enough, and we believe that 64 bits is very reliable.
@@ -35,5 +45,6 @@ At the time of creating DGC Epoch, 48 bits was more than enough, and we believe 
 However, the "UNIX Epoch", which was the standard at the time, was originally 32 bits, and was a notation method that would soon run out of space.
 
 If you run out of digits in DGC Epoch, please see below:
-- Feel free to also use DGC Epoch 96 or DGC Epoch 128.
+- Feel free to also use DGC Epoch 96 or DGC Epoch 128... or DGC Epoch 128 Extended
 - However, make sure that the number part is the "number of digits in binary form".
+
