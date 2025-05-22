@@ -1,7 +1,7 @@
 # DGC Epoch (Previous name: MicroTime) - [Demo](https://dgc-epoch.diamondgotcat.net/)
 
 ## How
-This is a new way of expressing time that can represent very long periods of time.
+DGC Epoch provides a simple, binary-based time format capable of representing extremely long durations.
 
 It's very simple:
 1. Measure the number of milliseconds since January 1, 2000 (UTC)
