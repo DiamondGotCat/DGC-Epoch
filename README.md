@@ -1,4 +1,4 @@
-# DGC Epoch (Previous name: MicroTime) - [Demo](https://kamu.jp/dgc-epoch/)
+# DGC Epoch (Previous name: MicroTime) - [Demo](https://dgc-epoch.diamondgotcat.net/)
 
 ## How
 This is a new way of expressing time that can represent very long periods of time.
