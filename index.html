@@ -8,7 +8,7 @@
       const output48 = document.getElementById('dgce48-output');
       const output64 = document.getElementById('dgce64-output');
 
-      datetimeInput.addEventListener('input', () => {
+      datetimeInput.addEventListener('datetime-input', () => {
         const date = new Date(datetimeInput.value);
         if (isNaN(date)) {
           output48.textContent = 'None';
