@@ -1,4 +1,4 @@
-# DGC Epoch (Previous name: MicroTime) - [Demo](https://dgc-epoch.diamondgotcat.net/)
+# DGC Epoch (Previous name: MicroTime) - [Demo](https://diamondgotcat.github.io/DGC-Epoch/)
 
 ## How
 DGC Epoch provides a simple, binary-based time format capable of representing extremely long durations.
