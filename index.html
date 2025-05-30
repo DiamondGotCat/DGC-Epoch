@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>DGC-Epoch</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      const datetimeInput = document.getElementById('datetime-input');
+      const output48 = document.getElementById('dgce48-output');
+      const output64 = document.getElementById('dgce64-output');
+
+      datetimeInput.addEventListener('input', () => {
+        const date = new Date(datetimeInput.value);
+        if (isNaN(date)) {
+          output48.textContent = 'None';
+          output64.textContent = 'None';
+          return;
+        }
+
+        const epoch2000 = new Date(Date.UTC(2000, 0, 1)).getTime();
+        const diffMillis = date.getTime() - epoch2000;
+
+        if (diffMillis < 0) {
+          output48.textContent = 'Invalid (Before 2000)';
+          output64.textContent = 'Invalid (Before 2000)';
+          return;
+        }
+
+        const binary = diffMillis.toString(2);
+        output48.textContent = binary.padStart(48, '0');
+        output64.textContent = binary.padStart(64, '0');
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="flex">
+        <div class="flex h-screen flex-col justify-between border-e border-gray-100 bg-white" >
+          <div class="px-4 py-6">
+            <div class="flex space-x-4">
+              <img class="rounded-full" src="https://icons.diamondgotcat.net/Reverse.png" alt="" width="25" height="25">
+              <span>DGC-Epoch</span>
+            </div>
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a href="https://diamondgotcat.net/" class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700" >Home</a>
+              </li>
+              <li>
+                <p class="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700" >DGC-Epoch</p>
+              </li>
+            </ul>
+          </div>
+          <div class="sticky inset-x-0 bottom-0 border-t border-gray-100">
+            <a href="#" class="flex items-center gap-2 bg-white p-4 hover:bg-gray-50" >
+              <img alt="" src="https://icons.diamondgotcat.net/Yellow-on-Black.png" class="size-10 rounded-full object-cover" />
+              <div>
+                <p class="text-xs">
+                  <strong class="block font-medium" >Guest</strong >
+                  <span>Only Public Content Showing </span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="flex-1 p-8">
+          <nav aria-label="Breadcrumb">
+            <ol class="flex items-center gap-1 text-sm text-gray-700">
+              <li>
+                <a href="#" class="block transition-colors hover:text-gray-900">DiamondGotCat</a>
+              </li>
+              <li class="rtl:rotate-180">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 20 20" fill="currentColor" >
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                </svg>
+              </li>
+            </ol>
+          </nav>
+          <h1 class="text-3xl font-bold">DGC-Epoch</h1>
+          <div class="py-4"></div>
+          <section id="section1" class="flex flex-row">
+            <article class="flex-1 rounded-xl border-2 border-gray-100 bg-white">
+              <div class="p-6 space-y-4">
+                <h2 class="text-xl font-semibold text-gray-800">DGC Epoch Converter</h2>
+                <label class="block">
+                  <span class="text-sm text-gray-700">Select Date and Time (UTC)</span>
+                  <input id="datetime-input" type="datetime-local" class="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                </label>
+
+                <div class="space-y-2">
+                  <div>
+                    <p class="text-sm font-medium text-gray-700">DGC Epoch 48:</p>
+                    <code id="dgce48-output" class="block rounded bg-gray-100 p-2 text-xs font-mono text-gray-800 break-words">None</code>
+                  </div>
+                  <div>
+                    <p class="text-sm font-medium text-gray-700">DGC Epoch 64:</p>
+                    <code id="dgce64-output" class="block rounded bg-gray-100 p-2 text-xs font-mono text-gray-800 break-words">None</code>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Spacer: <div class="px-2"></div> -->
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
