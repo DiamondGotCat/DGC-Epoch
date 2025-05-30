@@ -4,32 +4,34 @@
     <title>DGC-Epoch</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script>
-      const datetimeInput = document.getElementById('datetime-input');
-      const output48 = document.getElementById('dgce48-output');
-      const output64 = document.getElementById('dgce64-output');
+  document.addEventListener('DOMContentLoaded', () => {
+    const datetimeInput = document.getElementById('datetime-input');
+    const output48 = document.getElementById('dgce48-output');
+    const output64 = document.getElementById('dgce64-output');
 
-      datetimeInput.addEventListener('datetime-input', () => {
-        const date = new Date(datetimeInput.value);
-        if (isNaN(date)) {
-          output48.textContent = 'None';
-          output64.textContent = 'None';
-          return;
-        }
+    datetimeInput.addEventListener('input', () => {
+      const date = new Date(datetimeInput.value);
+      if (isNaN(date)) {
+        output48.textContent = 'None';
+        output64.textContent = 'None';
+        return;
+      }
 
-        const epoch2000 = new Date(Date.UTC(2000, 0, 1)).getTime();
-        const diffMillis = date.getTime() - epoch2000;
+      const epoch2000 = new Date(Date.UTC(2000, 0, 1)).getTime();
+      const diffMillis = date.getTime() - epoch2000;
 
-        if (diffMillis < 0) {
-          output48.textContent = 'Invalid (Before 2000)';
-          output64.textContent = 'Invalid (Before 2000)';
-          return;
-        }
+      if (diffMillis < 0) {
+        output48.textContent = 'Invalid (Before 2000)';
+        output64.textContent = 'Invalid (Before 2000)';
+        return;
+      }
 
-        const binary = diffMillis.toString(2);
-        output48.textContent = binary.padStart(48, '0');
-        output64.textContent = binary.padStart(64, '0');
-      });
-    </script>
+      const binary = diffMillis.toString(2);
+      output48.textContent = binary.padStart(48, '0');
+      output64.textContent = binary.padStart(64, '0');
+    });
+  });
+</script>
   </head>
   <body>
     <main>
